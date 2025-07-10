@@ -1,0 +1,5 @@
+[org/gnome/shell]
+disable-user-extensions=false
+welcome-dialog-last-shown-version='48.2'
+enabled-extensions=['compiz-windows-effect@hermes83.github.com', 'compiz-alike-magic-lamp-effect@hermes83.github.com', 'clipboard-history@alexsaveau.dev', 'dash-to-dock@micxgx.gmail.com', 'custom-hot-corners-extended@G-dH.github.com', 'wiggle@mechtifs']
+

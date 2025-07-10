@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Arch Linux Installer
+Comment=Install Arch Linux
+GenericName=System Installer
+Exec=sudo -E /usr/local/bin/arch-installer %f
+Icon=arch-installer
+Type=Application
+StartupNotify=false
+StartupWMClass=ArchInstaller
+Categories=System;Utility;
+Keywords=installer;archlinux;arch;linux;os;system;

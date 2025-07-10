@@ -1,0 +1,13 @@
+[org/gnome/shell/extensions/custom-hot-corners-extended/misc]
+panel-menu-enable=false
+show-osd-monitor-indexes=false
+supported-active-extensions=@as []
+
+[org/gnome/shell/extensions/custom-hot-corners-extended/monitor-0-bottom-right-1]
+action='show-desktop-mon'
+
+[org/gnome/shell/extensions/custom-hot-corners-extended/monitor-0-bottom-right-6]
+ctrl=true
+
+[org/gnome/shell/extensions/custom-hot-corners-extended/monitor-0-top-left-6]
+ctrl=true

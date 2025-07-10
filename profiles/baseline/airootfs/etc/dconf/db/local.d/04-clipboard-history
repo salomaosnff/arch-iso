@@ -1,0 +1,7 @@
+[org/gnome/shell/extensions/clipboard-history]
+cache-size=10
+display-mode=0
+history-size=100
+notify-on-copy=false
+private-mode=false
+window-width-percentage=24

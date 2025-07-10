@@ -1,0 +1,23 @@
+#!/bin/bash
+
+pacman-key --init
+
+locale-gen
+
+systemctl enable NetworkManager
+systemctl enable gdm
+systemctl enable bluetooth
+
+mkdir -p /home/live/.config/autostart
+ln -s /usr/share/applications/arch-installer.desktop /home/live/.config/autostart/arch-installer.desktop
+
+chown live:live /home/live/.config/autostart/arch-installer.desktop
+chmod +x /home/live/.config/autostart/arch-installer.desktop
+
+# Desabilita o gnome tour
+mkdir -p /etc/dconf/db/local.d
+echo "[org/gnome/shell]" > /etc/dconf/db/local.d/00-gnome-tour
+echo "welcome-dialog-last-shown-version='9999.0.0'" >> /etc/dconf/db/local.d/00-gnome-tour
+dconf update
+
+rm -- "$0" 
