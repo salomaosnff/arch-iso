@@ -47,4 +47,5 @@ cronie
 reflector
 nano
 btrfs-progs
+dosfstools
 
