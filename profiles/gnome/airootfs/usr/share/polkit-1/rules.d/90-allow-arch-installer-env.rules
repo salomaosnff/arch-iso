@@ -1,5 +1,0 @@
-polkit.addRule(function(action, subject) {
-    if (action.id == "com.sallon.archinstaller.run") {
-        return polkit.Result.YES;
-    }
-});

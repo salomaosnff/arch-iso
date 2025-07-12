@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/hermes83/compiz-alike-magic-lamp-effect.git
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true

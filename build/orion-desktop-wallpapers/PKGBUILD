@@ -1,0 +1,18 @@
+
+pkgname=orion-desktop-wallpapers
+pkgver=0.0.1
+pkgrel=1
+arch=('any')
+pkgdesc="Papeis de parede do Orion Linux"
+url="https://github.com/salomaosnff/arch-iso"
+license=('MIT')
+depends=(
+    gnome-shell 
+    gdm 
+)
+source=()
+md5sums=()
+
+package() {
+    cp -r "$startdir/airootfs/." "$pkgdir/"
+}

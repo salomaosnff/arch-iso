@@ -1,0 +1,18 @@
+
+pkgname=orion-desktop-gnome-config
+pkgver=0.0.1
+pkgrel=1
+arch=('any')
+pkgdesc="Personalização de ambiente de desktop Orion Linux"
+url="https://github.com/salomaosnff/arch-iso"
+license=('MIT')
+depends=(
+    gnome-shell 
+    gdm 
+)
+source=()
+md5sums=()
+
+package() {
+    cp -r "$startdir/airootfs/." "$pkgdir/"
+}

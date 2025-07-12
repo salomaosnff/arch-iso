@@ -1,0 +1,22 @@
+
+pkgname=orion-desktop-gnome
+pkgver=0.0.1
+pkgrel=1
+arch=('any')
+pkgdesc="Personalização de ambiente de desktop Orion Linux"
+url="https://github.com/salomaosnff/arch-iso"
+license=('MIT')
+depends=(
+    orion-desktop-gnome-config
+    orion-desktop-wallpapers
+    gnome-shell 
+    gdm
+    gnome-backgrounds 
+    gnome-shell-extensions
+    gnome-shell-extension-clipboard-history
+    gnome-shell-extension-compiz-alike-magic-lamp-effect-git
+    gnome-shell-extension-compiz-windows-effect-git
+    gnome-shell-extension-custom-hot-corners-extended-git
+    gnome-shell-extension-dash-to-dock
+    gnome-shell-extension-wiggle 
+)

@@ -1,0 +1,4 @@
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri="file:///usr/share/backgrounds/orion/orion-nebule.jpg"
+picture-uri-dark="file:///usr/share/backgrounds/orion/orion-nebule.jpg"
