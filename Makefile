@@ -5,7 +5,7 @@ BUILD_CMD = sudo mkarchiso -v -w work -r -o iso
 .PHONY: build build-% clean repo-add
 
 build:
-	# sudo rm -rf work/*
+	make clean
 	$(BUILD_CMD) profiles/default
 
 build-%:

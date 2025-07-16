@@ -28,8 +28,6 @@ xdotool
 
 # GNOME
 networkmanager
-gdm
-gnome-backgrounds
 gnome-console
 gnome-control-center
 gnome-disk-utility
@@ -48,6 +46,8 @@ reflector
 nano
 btrfs-progs
 dosfstools
-orion-desktop-gnome
 neofetch-git
 
+# Orion Packages
+orion-keyring
+orion-desktop-gnome
